@@ -9,7 +9,7 @@ Voor vragen kun je direct bij mij terrecht.
 
 Hoe het werkt
 =============
-* Installeer dit script
+* [Installeer dit script](https://greasyfork.org/nl/scripts/17993-wme-slackunlock)
 * Selecteer segmenten die boven je level zijn
 * Er verschijnt een tekstvak om een rede in te voeren voor de unlock (optioneel) en een knop om de vraag in te dienen.
 
