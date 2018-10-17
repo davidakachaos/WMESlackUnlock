@@ -4,7 +4,7 @@
 // @namespace      davidakachaos@gmail.com
 // @grant          none
 // @grant          GM_info
-// @version        0.0.6
+// @version        0.0.7
 // @match               https://beta.waze.com/*editor*
 // @match               https://www.waze.com/*editor*
 // @exclude             https://www.waze.com/*user/*editor/*
@@ -94,7 +94,7 @@ function postToSlack(){
   var reason = $('#unlockReason').val();
 
   var msg = W.loginManager.user.userName + ': L' + locked + W.model.countries.top.abbr + ' ';
-  msg += place + ' -> L' + user_level + ': ' + reason + ' ';
+  msg += place + ' -> L_' + user_level + ': ' + reason + ' ';
   msg += 'link: ' + perma;
 
   var payload = {
